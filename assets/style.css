@@ -714,9 +714,12 @@ span.text-indent {
     }
     span.text-indent {
         text-indent: 15%;
-        white-space: nowrap; /* يمنع النزول لسطر جديد */
-        max-width: 100%; /* يخلي النص يكسر فقط إذا اضطر */
-        overflow: hidden; /* خيار لو بدك تقطع النص الطويل */
+        white-space: nowrap; 
+        max-width: 100%; 
+        overflow: hidden;
+    }
+    .logo {
+        width: 150px !important;
     }
 }
 
